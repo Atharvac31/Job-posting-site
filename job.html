@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="hw.css"> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Luxurious+Roman&family=Roboto+Condensed&display=swap');
+        </style>
+        <style>
+            body{
+    background: linear-gradient(135deg, #9dd770, #59b6a2);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#d1{
+    margin: 10px 10px;
+    font-weight: bolder;
+
+}
+#d2{
+    margin: 10px 10px;
+    font-weight: bolder;
+}
+#d3{
+    margin: 10px 10px;
+    font-weight: bolder;
+
+
+}
+#d4{
+    margin: 10px 10px;
+    font-weight: bolder;
+    width: 296;
+    height: 106px;
+
+}
+#btn{
+    background-color: #49be25;
+    color: rgb(241, 241, 249);
+    height: 34px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    margin: 20px;
+}
+.form1{
+    margin: 50px 310px;
+    padding: 50px 50px;
+    background-color: azure;
+    width: 510px;
+    border-radius: 20px;
+    text-align: center;
+}
+#h1{
+    
+    text-align: center;
+}
+
+        </style>
+        {{!-- <script src="hw.js"></script> --}}
+    <title>Form</title>
+    <h1 id="h1">Job Form</h1>
+</head>
+<body>
+    <form method='GET' action="/getjob">
+        <div class="form1">
+            <h2>Candidate Details</h2>
+            <div id="d1">
+                Enter Your name <input type="text" id="cname" name="cname">
+                <br>
+                
+            </div>
+            <div id="d2">
+                Enter Your Email <input type="email" id="c_email" name="c_email">
+                <br>
+            </div>
+            <div id="d3">
+    
+                Enter Your Phone Number <input type="tel" id="c_phone" name="c_phone">
+                <br>
+                <div>
+    
+                    Enter about your skills <input type="text" id="d4" name="c_skills">
+                    <br>
+            </div>
+              <div>
+    
+                    Enter years of Experience <input type="text" id="c_exp" name="c_exp">
+                    <br>
+            </div>
+            <div >
+                <button id="btn">Submit</button>
+            </div>
+        </div>
+        
+
+    </form>
+</body>
+</html>

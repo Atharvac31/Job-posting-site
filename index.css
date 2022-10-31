@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins',sans-serif;
+    background: linear-gradient(135deg, #8df898, #60eecf);
+}
+.back img{
+    
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 507px;
+   
+}
+/* .mbar li a{
+    text-decoration: none;
+    color: black;
+  
+} */
+.mbar a{
+  
+    display: inline;
+    padding: 10px 10px;
+    margin: 25px 51px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+   
+
+}
+.mbar a:hover{
+    color: #03c077
+}
+.mbar img{
+    height: 50px;
+    width: 50px;
+}
+.logo1{
+    display: flex;
+    align-items: center;
+}
+.logo1 img{
+    width: 116px;
+    height: 69px;
+    padding: 0 1128px;
+}
+/* .btn{
+    background-color: rgb(1, 105, 84);
+    height: 50px;
+    width: 90px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.mbar li button:hover{
+    background-color: rgb(4, 176, 142);
+} */
+.topmid{
+    width: 460px;
+    padding: 90px 229px;
+    font-size:25px;
+    justify-content: center;
+}
+.topmid button{
+    height: 40px;
+    width: 50px;
+    background: linear-gradient(135deg, #14e38d, #053e24);
+    border: none;
+    border-radius: 5px;
+}
+.topmid button:hover{
+    background: linear-gradient(135deg, #4effb5, #036338);
+}
+.topmid input{
+    height: 40px;
+    width: 220px;
+}
+.com{
+    height: 200px;
+    margin: 10px 0px;
+    background: linear-gradient(135deg, #048c54, #000000);
+    color:  white;
+}
+.com h2{
+    margin: 1px 410px;
+    padding: 10px 10px;
+}
+.fa-brands{
+    color:white;
+    height: 110px;
+    width: 110px;
+    padding: 9px 48px;
+    margin: 20px 20px;
+}
+.fcontainer{
+    background: linear-gradient(135deg, #aff17d, #60eecf);
+    display: flex;
+    justify-content: space-around;
+    height: 630px;
+    flex-wrap: wrap;
+}
+.fitem{
+    width: 230px;
+    height: 166px;
+    background-color: white;
+    border: 1px solid  rgb(208, 209, 211);
+    margin: 35px 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 20px;
+}
+.fitem a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+}
+.fitem:hover{
+    background-color: rgb(223, 230, 237);
+}
+#f1{
+    
+   
+    color: rgb(255, 208, 0);
+    border-radius: 10px;
+}
+#f0{
+    color: rgb(85, 63, 3);
+}
+#f2{
+    color: rgb(67, 128, 242);
+}
+#f3{
+    color: rgb(151, 88, 214);
+}
+#f4{
+    color: rgb(151, 240, 210);
+}
+#f5{
+    color: rgb(247, 110, 183);
+}
+#f6{
+    color: rgb(109, 203, 109);
+}
+#f7{
+    color: rgb(254, 38, 38);
+}
+.fitem button{
+    margin: 10px 10px;
+}
+.mid{
+    display: flex;
+    padding: 21px 10px;
+    
+    /* margin: 10px 10px; */ 
+}
+.mid img{
+    width: 567px;
+    border-radius: 10px;
+}
+.mid2{
+    padding: 45px 125px;
+    margin: 10px 10px;
+    text-align: center;
+    width: 471px;
+    font-size: 25px;
+}
+.mid2 button{
+    height: 53px;
+    width: 139px;
+    background: linear-gradient(135deg, #14e38d, #053e24);
+    border: none;
+    border-radius: 15px;
+    color: aliceblue;
+}
+.mid2 button:hover{
+    background: linear-gradient(135deg, #4effb5, #036338);
+}
+.mid2 button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.foot{
+  
+    background-color: rgb(2, 34, 34) ;
+    margin: 13px -13px;
+    padding: 14px 44px;
+    color: aliceblue;
+    
+}
+.foot img{
+    width: 116px;
+    height: 69px;
+}
+.fa-solid{
+    color: aliceblue;
+    width: 50px;
+    height: 50px;
+}
+.foot2{
+    color: aliceblue;
+}
+.foot {
+    display: flex;
+    padding: 10px 10px;
+    
+}
+.foot li{
+    text-decoration: none;
+    cursor: pointer;
+}

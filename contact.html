@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="hw.css"> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Luxurious+Roman&family=Roboto+Condensed&display=swap');
+        </style>
+        <style>
+            body{
+    background-color: #ffffff;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#d1{
+    margin: 10px 10px;
+    font-weight: bolder;
+
+}
+#d2{
+    margin: 10px 10px;
+    font-weight: bolder;
+}
+#d3{
+    margin: 10px 10px;
+    font-weight: bolder;
+
+
+}
+#d4{
+    margin: 10px 10px;
+    font-weight: bolder;
+    width: 296;
+    height: 106px;
+
+}
+#btn{
+    background-color: #49be25;
+    color: rgb(241, 241, 249);
+    height: 34px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    margin: 20px;
+}
+.form1{
+    margin: 50px 310px;
+    padding: 50px 50px;
+    background-color: azure;
+    width: 510px;
+    border-radius: 20px;
+    text-align: center;
+}
+#h1{
+    
+    text-align: center;
+}
+
+        </style>
+        <script src="hw.js"></script>
+    <title>Form</title>
+    <h1 id="h1">Contact Form</h1>
+</head>
+<body>
+    <form method='GET' action="/contact">
+        <div class="form1">
+            <h2>Fill the Form</h2>
+            <div id="d1">
+                Enter Your name <input type="text" id="fname" name="fname">
+                <br>
+                
+            </div>
+            <div id="d2">
+                Enter Your Email <input type="email" id="email" name="email">
+                <br>
+            </div>
+            <div id="d3">
+    
+                Enter Your Phone Number <input type="tel" id="phone" name="phone">
+                <br>
+                <div>
+    
+                    Enter Your Permentant Address <input type="text" id="d4" name="d4">
+                    <br>
+            </div>
+            <div >
+                Enter Your Date of Birth <input type="date" id="dob" name="dob">
+                <br>
+            </div>
+            <div >
+                <button id="btn">Submit</button>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

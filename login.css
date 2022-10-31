@@ -1,0 +1,118 @@
+/* body{ */
+    /* background-color: lightslategray; */
+    
+ /* margin-top: 2cm;   
+ padding-left: 2cm; */
+/* } */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+     font-family: 'Poppins',sans-serif;
+}
+.welcome{
+    background-color: rgb(53, 55, 55);
+    color: white;
+    height: 700px;
+    width: 530px;
+    text-align: center;
+}
+.page{
+    display: flex;
+}
+.main{
+    background-color: white;
+    
+    width: 400px;
+}
+
+
+
+.linkedin{
+    text-align: left;
+    height: 600px;
+}
+
+
+
+#linkedin{
+    color: white;
+    /* text-align: center; */
+    background-color: darkblue;
+    width: 646px;
+    margin: 10px 175px;
+    height: 50px;
+    border: none;
+  border-radius: 10px;
+   
+/* margin-bottom: 100px;
+margin-top: 100px; */
+}
+#linkedin a{
+    text-decoration: none;
+    color: white;
+}
+#google{
+    color: white;
+    /* text-align: center; */
+    background-color: red;
+    width: 646px;
+    margin: 10px 175px;
+    height: 50px;
+    border: none;
+ border-radius: 10px;
+   
+/* margin-bottom: 100px;
+margin-top: 100px; */
+}
+#google a{
+    text-decoration: none;
+    color: white;
+}
+#facebook{
+    color: white;
+    /* text-align: center; */
+    background-color: blue;
+    width: 646px;
+    margin: 10px 175px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+  
+   
+/* margin-bottom: 100px;
+margin-top: 100px; */
+}
+#facebook a{
+    text-decoration: none;
+    color: white;
+}
+.email{
+    text-align: center;
+    padding-left: 179px;
+}
+#e{
+    padding: 9px 236px;
+    border-radius: 10px;
+    
+}
+#mail{
+  text-align: left;
+}
+#p{
+    padding: 9px 236px;
+    border-radius: 10px;
+}
+#pass{
+    text-align: left;
+
+}
+#r{
+    padding-right: 60px;
+    border-radius: 10px;
+}
+
+#login{
+    padding: 10px 304px;
+background-color: limegreen;
+border-radius: 10px;
+
+}
